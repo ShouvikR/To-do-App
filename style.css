@@ -13,6 +13,11 @@ html {
     background-color: beige; 
 }
 
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
 main {
     background-color: rgb(246, 198, 168);
     padding-top: 30px;
@@ -26,8 +31,9 @@ main {
 
 ul {
     list-style: none;
-}
+    padding-left: 0px;
 
+}
 
 h1 {
     font-size: 2.5rem;
@@ -36,14 +42,25 @@ h1 {
 }
 
 input {
-    width: 100%;
-    font-size: .7rem;
+    width: 70%;
+    font-size: .8rem;
     margin-top: 3px;
-    padding: 6px 5px;
+    padding: 11px 5px;
 }
+
+label {
+    font-size: 1.2rem;
+}
+
+/* input[type='text'] {
+    width: 70%;
+} */
 
 form {
     padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
 }
 
 i {
@@ -55,5 +72,16 @@ i {
 .text-muted,
 .text-muted i {
     color: rgb(142, 142, 142);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 10px 10px 5px;
+
+
 }
 

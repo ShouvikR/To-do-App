@@ -26,6 +26,8 @@ form.addEventListener('submit', function(e) {
 
 const ulEl = document.querySelector('ul');
 
+ulEl.setAttribute('class', 'wrapper');
+
 ulEl.addEventListener('click', function(element) {
     if (element.target.tagName === 'I') {
         changeDisplay(element.target);
