@@ -64,7 +64,7 @@ form {
 }
 
 i {
-    padding: 0px 5px 10px 5px;
+    padding: 0px 5px 10px;
     color: brown;
     cursor: pointer;
 }
@@ -81,7 +81,5 @@ footer {
     right: 0;
     text-align: center;
     padding: 10px 10px 5px;
-
-
 }
 
